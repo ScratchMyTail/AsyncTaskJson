@@ -12,7 +12,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new LocationAsyncTask().execute("http://www.server.no");
+        new LocationAsyncTask().execute("http://studit.hinesna.no:3000/find/loc?lat=66.311&lng=14.137");
     }
 
 
